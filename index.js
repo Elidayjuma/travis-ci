@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 });
 
 app.get ('/x', (req, res) => {
-  res.send('this is the');
+  res.send('this is the test');
 })
 
 const server = app.listen(3000, () => {
